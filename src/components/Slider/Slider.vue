@@ -1,5 +1,5 @@
 <template>
- <v-col cols="8">
+ <v-col cols="8" class="pa-0">
     <v-carousel hide-delimiters height="305px">
       <v-carousel-item
         v-for="(item,i) in items"

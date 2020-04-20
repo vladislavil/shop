@@ -1,7 +1,6 @@
 <template>
   <v-card
-    height="100vh"
-    width="256"
+    width="200px"
   >
     <v-navigation-drawer permanent>
       <v-list-item>
@@ -9,9 +8,6 @@
           <v-list-item-title class="title">
             Application
           </v-list-item-title>
-          <v-list-item-subtitle>
-            subtext
-          </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
