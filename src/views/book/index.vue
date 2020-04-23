@@ -1,12 +1,17 @@
 <template>
   <div>
     Book
-    {{data}}
+    {{ $route.params }}
   </div>
 </template>
 
 <script>
 export default {
-  props: ['data']
+  methods: {
+    myFunc () {
+      const route = this.$route.params
+      return route
+    }
+  }
 }
 </script>

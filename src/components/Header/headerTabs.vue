@@ -2,6 +2,8 @@
   <div>
     <v-tabs
       height="30px"
+      background-color="#424242"
+      hide-slider
       dark
       right
     >

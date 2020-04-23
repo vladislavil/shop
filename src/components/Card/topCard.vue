@@ -1,5 +1,5 @@
 <template>
-  <v-col cols="4" class="pa-0">
+  <v-col cols="4" class="py-0">
     <v-card
       style="height: 100%"
       class="flex-grow-1 flex-shrink-0"
