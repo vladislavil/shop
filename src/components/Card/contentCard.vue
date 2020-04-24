@@ -4,7 +4,7 @@
       <v-col cols="3" v-for="(item, index) in items" :key='index'>
         <a href="#" @click.prevent="goBook(item)">
           <v-card class="d-flex justify-center flex-grow-0 pa-1 ma-auto mb-2">
-            <img src="@/assets/book.jpg" alt="">
+            <img src="../../static/book.jpg" alt="">
           </v-card>
           <h4 class="title">{{item.title}}</h4>
           <div class="price">{{item.price}}</div>
@@ -124,7 +124,8 @@ export default {
   },
   methods: {
     goBook (item) {
-      this.$router.push({ name: 'Book', params: { item } })
+      console.log(item)
+      this.$router.push({ name: 'Book', params: { id: item.id, title: item.title, price: item.price, img: require('../../static/book.jpg') } })
     }
   }
 }
